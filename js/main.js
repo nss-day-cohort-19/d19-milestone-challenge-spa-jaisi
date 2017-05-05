@@ -8,13 +8,13 @@ function getInventory (inventory) {
 
   	output.innerHTML += `<div class='col-sm-4 wrapper'><div class='card text-center'><div class='card-block'>`
   						+ `<h4 class='card-title'>` + inventory.cars[i].make + `</h4>`
-  						+`<p class='card-text'>Model:` 
+  						+`<h5 class='card-text'>Model:` 
   						+ inventory.cars[i].model 
-  						+`</p><p class='card-text'>Year:`
+  						+`</h5><h5 class='card-text'>Year:`
   						+ inventory.cars[i].year 
-  						+`</p><p class='card-text'>Price:$`
+  						+`</h5><h5 class='card-text'>Price:$`
   						+ inventory.cars[i].price 
-  						+`</p><p class='card-text-muted' id="desc--${i}">`
+  						+`</h5><p class='card-text-muted'>`
   						+ inventory.cars[i].description 
   						+`</p></div></div></div>` ;
   

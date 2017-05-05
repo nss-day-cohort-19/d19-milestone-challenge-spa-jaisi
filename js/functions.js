@@ -4,12 +4,16 @@ var CarLot = (function (taco) {
   
 
  
-      taco.handleHulkify = function (event) {
+      taco.handleHulkify = function (desc) {
      
-      	event.target.classList.toggle("hulkify");
-      	console.log("the card was clicked", event.target);
+      		desc.style.border = "thick solid #0000FF";
+      		desc.style.background = "darkgray";
    
-  }
+  		},
+  	  taco.handleNormalise = function (desc){
+  	  		desc.style.border = "thin solid black";
+  	  		desc.style.background = "white";
+  	  }
 
    return taco;
  
