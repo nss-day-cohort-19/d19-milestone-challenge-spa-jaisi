@@ -1,0 +1,21 @@
+.card{
+	border: 0.075em solid #555;
+	
+
+	
+}
+
+.hulkify{
+	border: 1em solid #555;	
+	background-color: white;
+}
+
+.wrapper{
+	 padding: 25px 25px 50px 25px;
+}
+
+footer {
+      background-color: #555;
+      color: white;
+      padding: 25px;
+   }

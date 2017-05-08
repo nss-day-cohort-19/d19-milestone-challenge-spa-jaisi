@@ -1,0 +1,39 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Acura",
+      "model": "TSX",
+      "year": "2007",
+      "price": "9900",
+      "description": "This is an immaculate 2007 Acura TSX with only 7000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Toyota",
+      "model": "Prius",
+      "year": "2006",
+      "price": "12900",
+      "description": "This is an immaculate 2006 Toyota Prius with only 16000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Chevy",
+      "model": "Colorado",
+      "year": "2007",
+      "price": "10000",
+      "description": "This is an immaculate 2007 Chevy Colorado with only 7000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Honda",
+      "model": "CRV",
+      "year": "2010",
+      "price": "15900",
+      "description": "This is an immaculate 2010 Honda CRV with only 8000 miles on it. Leather seats, power everything."
+    }
+  ]
+}
